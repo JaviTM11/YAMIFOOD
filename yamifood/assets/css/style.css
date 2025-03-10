@@ -1,0 +1,12 @@
+@import url(reset.css);
+/* cargamos fontawesome */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css");
+/* cargamos las fuentes de google fonts Arbutus Slab, Athiti 400, 500 600*/
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Athiti:wght@400;500;600&display=swap');
+@import url(variables.css);
+@import url(layout.css);
+@import url(header.css);
+@import url(hero.css);
+@import url(main.css);
+/* la mediasquerys.css tiene que ser siempre el ultimo css importado */
+@import url(mediquerys.css);

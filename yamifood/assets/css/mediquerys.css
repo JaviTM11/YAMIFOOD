@@ -1,0 +1,48 @@
+/* 768px */
+@media(width>=48rem) {
+    #gallery .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/* 992px */
+@media(width>=62rem) {
+    header .hamburguer {
+        display: none;
+    }
+
+    header nav ul {
+        width: calc(100% - 12.5rem);
+        display: flex;
+        margin-top: 10px;
+        justify-content: end;
+
+    }
+
+    header nav ul li {
+        margin: 0px 10px;
+    }
+
+    header nav ul a {
+        padding: 10px 20px;
+    }
+
+    #about .container {
+        flex-direction: row;
+    }
+
+    #gallery .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #contact .icons a {
+        color: white;
+        text-decoration: none;
+    }
+
+    #contact .icons span {
+        display: inline;
+
+    }
+}

@@ -1,0 +1,161 @@
+/* inicio aboutus */
+main .secciones {
+    margin: 3.75rem 0rem;
+
+    h2 {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 1.25rem;
+
+        span {
+            color: var(--primary-color);
+        }
+    }
+}
+
+#about .container {
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+
+    figure {
+        width: 100%;
+
+        img {
+            border-top: 10px solid var(--primary-color);
+            border-left: 10px solid var(--primary-color);
+            border-right: 10px solid white;
+            border-bottom: 10px solid white;
+        }
+    }
+
+    div {
+        width: 100%;
+        padding: var(--gap);
+        text-align: center;
+    }
+
+    p,
+    h4 {
+        margin-bottom: var(--gap);
+    }
+
+    p {
+        color: var(--text-color);
+    }
+}
+
+/* inicio calltoaction */
+
+#calltoaction {
+    background-image: url('../images/qt-bg.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    padding: 5rem 0rem;
+    text-align: center;
+    color: white;
+
+    blockquote {
+        font-style: italic;
+        font-size: 150%;
+        font-family: var(--secondary-font);
+        margin-bottom: var(--gap);
+        line-height: 1.5rem;
+    }
+
+    author {
+        font-size: 120%;
+    }
+
+}
+
+/* inicio de seccion galeria */
+#gallery .grid {
+    padding: 1.25rem;
+    display: grid;
+    gap: var(--gap);
+}
+
+#gallery .grid article {
+    position: relative;
+    overflow: hidden;
+
+    .content {
+        position: absolute;
+        width: 100%;
+        background-color: var(--primary-color);
+        color: white;
+        padding: 15px;
+        transition: 1s;
+    }
+
+    h3 {
+        font-size: 160%;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-family: var(--secondary-font);
+        font-size: 200%;
+    }
+
+    img {
+        transition: 2s;
+    }
+}
+
+#gallery .grid article:hover {
+    .content {
+        margin-top: -95px;
+    }
+
+    img {
+        transform: scale(1.15) rotateZ(4deg);
+    }
+}
+
+#contact {
+    background-color: var(--primary-color);
+    padding: 20px 0px;
+
+    .mapa {
+        margin-top: 20px;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: space-around;
+
+        span {
+            display: none;
+        }
+
+        i {
+            padding: 15px;
+            display: inline-block;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 1);
+            color: var(--primary-color);
+        }
+    }
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 15px;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    ul li {
+        display: inline-block;
+    }
+}
